@@ -19,3 +19,9 @@ COPY notebooks/ /etc/skel/
 # Switch back to user jovyan and whatever is the default command-there
 USER jovyan
 
+# Copy the notebooks again
+COPY notebooks/ /home/jovyan/
+
+# Remove the distracting work directory
+RUN rm -rf /home/jovyan/work/
+
