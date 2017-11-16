@@ -24,7 +24,8 @@ to a different github.com organization in short order.
 
 ## Contributions
 
-Contributions by pull request are welcome, but note that there is only one
-simple notebook here; this is simply a proof of concept on hosting notebooks
-under jupyterhub (internally to NLM for now).
+Contributions by pull request are welcome, but note that there are only two
+simple notebooks here; this is simply a proof of concept on hosting notebooks
+under jupyterhub (internally to NLM for now).  We have two just to prove that
+both R and Python work.
 
