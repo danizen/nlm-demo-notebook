@@ -7,13 +7,13 @@ There are two basic ways to run this code
 
 * Pull and run from docker hub:
 
-    docker pull danizen/nlm-demo-notebook
-    docker run -p8888:8888 danizen/nlm-demo-notebook
+        docker pull danizen/nlm-demo-notebook
+        docker run -p8888:8888 danizen/nlm-demo-notebook
 
 * Clone/download this repository and then build and run
 
-    docker build -t local/nlm-demo-notebook
-    docker run -p8888:8888 danizen/nlm-demo-notebook
+        docker build -t local/nlm-demo-notebook
+        docker run -p8888:8888 danizen/nlm-demo-notebook
 
 * These notebooks work with jupyterhub, as well.
 
