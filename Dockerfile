@@ -13,6 +13,11 @@ COPY requirements.txt /srv/singleuser/requirements.txt
 # Install additional python packages
 RUN pip install -r /srv/singleuser/requirements.txt
 
+# Enable jupyter extensions
+RUN jupyter contrib nbextensions install
+RUN jupyter nbexension enable help_panel/help_panel
+RUN jupyter nbexension enable varInspector/main
+
 # Install notebooks into the user skeleton directory
 COPY notebooks/ /etc/skel/
 
